@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rag-llm-poc"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Wand <wandbrandon@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "rag_llm_poc" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+langgraph = "^0.2.35"
+langchain-ollama = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
